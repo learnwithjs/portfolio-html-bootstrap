@@ -1,0 +1,37 @@
+what does it mean by this snippet?
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-12"></div>
+        <div class="col-lg-6 col-md-12"></div>
+    </div>
+</div>
+
+here, i am giving div bootstrap container class which gives this div 80% height and make it responsive.
+
+inside container div, i am giving row class to child div.
+
+row and col are used to create layout.
+
+row mean place this div horizontally on window.
+
+in that row, there are two divs with class col-lg-6, and col-md-12.
+
+it means that in large screen devices, i want to give 6 column space to each div.
+and in medium size device, i want to give 12 column space.
+
+so, here i am using bootstrap grid system, so that i don't need to write media queries to handle responsiveness of this website.
+
+<div class="d-flex flex-row flex-wrap"></div>
+
+using bootstrap flex system
+
+d-flex means dispaly flex
+flex-row means flex direction row
+flex-wrap means flex-wrap: wrap
+
+when width of this device is less than content, that time flex-wrap will move the content to next line.
+
+<img src="" alt="" class="img-fluid">
+
+making image responsive using img-fluid class.
