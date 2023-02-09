@@ -35,3 +35,41 @@ when width of this device is less than content, that time flex-wrap will move th
 <img src="" alt="" class="img-fluid">
 
 making image responsive using img-fluid class.
+
+what is background clip property?
+
+what is difference between .button.primary-btn and .button .primary-btn?
+
+what is the use of transition property?
+
+what we can do with transition property?
+
+CSS transitions allows you to change property values smoothly, over a given duration.
+
+like if a button height, width are 100px.
+
+and we want to change button width on hover smoothly, that time we can apply this below css rule to that button.
+
+button{
+    width:100px;
+    height:100px;
+    transform: width 2s;
+}
+
+button:hover{
+    width:400px;
+}
+
+and if i want to change two properties when hover on button, that time i can do this.
+
+button{
+    width:100px;
+    height:100px;
+    background: white;
+    transform: width 2s, background 3s;
+}
+
+button:hover{
+    width:400px;
+    background: yellow;
+}
