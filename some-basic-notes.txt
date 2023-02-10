@@ -73,3 +73,13 @@ button:hover{
     width:400px;
     background: yellow;
 }
+
+10-02-2023, 11:46pm.
+
+things i have noticed while coding this personal Portfolio website is that, i have not given hard coded width or height to any div or image or button.
+
+also, i have created variables in css to use them where i need.
+
+added boostrap by adding its javascript and css file in respective js and css folders.
+
+added google fonts by downloading them and placing their files in fonts folder. and then using those font file which are in ttf format to create font face.

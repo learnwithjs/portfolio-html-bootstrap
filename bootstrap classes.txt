@@ -2,3 +2,5 @@ container class
 img-fluid
 container fluid
 d-flex flex-wrap
+
+col-xl-6 = give 6 columns space in extra large device.
