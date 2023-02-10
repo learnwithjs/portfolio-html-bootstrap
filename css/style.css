@@ -180,3 +180,23 @@ letter-spacing: 10px;
 .site-main .brand-area .experience-area .call-area{
     padding-left: 10rem;
 }
+
+/*start services area */
+
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+
+.site-main > .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+}
+
+/* end services area */
