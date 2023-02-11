@@ -38,5 +38,27 @@ $(document).ready(function(){
             }
         }
     })
+
+    // sticky navigation menu
+
+    let nav_offset_top = $('.header_area').height() + 50;
+    console.log("nav height is == ", nav_offset_top)
+
+    function navbarFixed(){
+        console.log("navbar function called")
+        if($('.header_area').length){
+            $(window).scroll(function(){
+                let scroll = $(window).scrollTop();
+                // console.log("scroll number is == ", scroll);
+
+                if(scroll >= nav_offset_top){
+                    $('.header_area .main-menu').addClass('navbar_fixed');
+                }else{
+                    $('.header_area .main-menu').removeClass('navbar_fixed');
+                }
+            })
+        }
+    }
+    navbarFixed();    
 })
 
