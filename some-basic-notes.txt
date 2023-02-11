@@ -83,3 +83,10 @@ also, i have created variables in css to use them where i need.
 added boostrap by adding its javascript and css file in respective js and css folders.
 
 added google fonts by downloading them and placing their files in fonts folder. and then using those font file which are in ttf format to create font face.
+
+Things learnt while creating project section
+
+1. How to create its title?
+2. How to filter projects using isotope plugin.
+3. How to give shadow to an image and increase its brightness when we hover on image.
+4. how to open image gallery when we click on image using maginfy-popup.
