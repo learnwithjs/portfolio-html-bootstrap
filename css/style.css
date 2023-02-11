@@ -279,3 +279,42 @@ filter: brightness(1.1) drop-shadow(1px 8px 30px #b1abaf);
 }
 
 /* What Client say about me section end */
+
+/* subscribe me section start */
+
+.site-main .subscribe-us-area .subscribe{
+    background: url(../img/subscribe-bg.png);
+    padding:10rem 0;
+    margin:3rem auto;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title h4{
+    font: normal 700 30px/30px var(--roboto);
+    color: whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title p{
+    color:whitesmoke;
+    padding: 1rem 4rem;
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input{
+    width: 400px;
+    padding:1.5rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+    font: normal 500 17px/20px var(--roboto);
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
+    color:whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe form .btn-submit button{
+    background: whitesmoke;
+    color:black;
+    padding:.7rem 2rem;
+}
+/* subscribe me section end */
+
