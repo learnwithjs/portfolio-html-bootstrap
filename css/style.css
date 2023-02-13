@@ -12,12 +12,19 @@
 
 /* start navigation */
 
-.header_area .main-menu .navbar .navbar-brand {
-    padding: 0 2rem 0 5rem;
-}
-
 .header_area .main-menu .navbar {
     padding: 1rem 15rem;
+}
+
+#navbarNav{
+    /* border: 1px solid salmon; */
+    justify-content: center;
+    width: 100%;
+}
+
+.header_area .main-menu .navbar-nav{
+    justify-content: space-between;
+    width: 80%;
 }
 
 .header_area .main-menu .nav-item .nav-link {
